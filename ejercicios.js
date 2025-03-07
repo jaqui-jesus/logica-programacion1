@@ -8,9 +8,9 @@ Debe ser capaz de identificar si los números son iguales e imprimir un mensaje 
 
 
 //* Solicitar números al usuario
-let num1 = parseFloat(prompt("Ingresa un número;"));
-let num2 = parseFloat(prompt("Ingresa un segundo número"));
-let num3 = parseFloat(prompt("Ingresa un tercer número"));
+let num1 = parseFloat(prompt("Ingresa un número:"));
+let num2 = parseFloat(prompt("Ingresa un segundo número:"));
+let num3 = parseFloat(prompt("Ingresa un tercer número:"));
 
 //*Verifica si los números son iguales
 if (num1 === num2 && num2 === num3) {
